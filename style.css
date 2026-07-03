@@ -1,0 +1,73 @@
+/* 상단바 */
+header {
+padding: 76px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #96B8D7;
+}
+/*로고 DE'FlNE */
+.logo {
+display: flex;
+justify-content: flex-start;
+font-size: 48px ; font-weight: 700;
+text-align: center;
+}
+/* 아르티아 */
+.Logo-name{
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  justify-content: baseline;
+}
+/* 메인 */
+.menu01-ul{
+display: flex;
+justify-content: flex-end;
+gap: 28px;
+}
+.m01-item {
+  font-size: 24px;
+  font-weight: 700;
+}
+.m01-item:hover {
+  font-size: 24px;
+  text-decoration: underline;
+}
+/* 전화번호 */
+.number-nav {
+  display: flex;
+  justify-content: flex-end ;
+  gap: 40px;
+font-size: 40px;
+font-weight: 700;
+}
+.number-ul{
+  gap: 20px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+/* 전화번호에 들어가는 메뉴 버튼 */
+.number-item03{
+  font-size: 20px;
+  font-weight: 400;}
+/* 버튼 */
+.button{
+border-radius: 2.5rem;
+border: 1px solid #000;
+width: 15.1875rem;
+height: 4.3125rem;
+transition: 0.3S;
+}
+.button:hover{
+  border-radius: 2.5rem;
+  border: 1px solid #000;
+  width: 15.1875rem;
+  height: 4.3125rem;
+  background-color: rgb(65, 65, 255);
+}
+/* 넘버 box 안에 메뉴  */
+.mn02 {
+  font-size: 20px;
+  font-weight: 200 ;
+}
