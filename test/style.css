@@ -5,6 +5,9 @@ header {
   justify-content: space-between;
   background-color: #96B8D7;
 }
+.top-bar{
+
+}
 /*로고 이미지 넣기*/
 .logo-img {
 display: flex;
